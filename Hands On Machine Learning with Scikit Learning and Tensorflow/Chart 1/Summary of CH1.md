@@ -12,14 +12,16 @@
 ## Types of Machine Learning Systems  
 * Supervised Learning:  
 &emsp; A typical supervised learning task are classification and regression.  
-    * __Some Algorithms__:  
+    * Some Algorithms:  
         * K-Nearest Neighbors  
         * Regression  
         * Support Vector Machines (SVMs)  
         * Decision Trees and Random Forests  
         * Neural networks (Note that some neural network architectures can be unsupervised or semisupervised.)  
 
-
+<div>
+__abc__
+</div>
 <pre><code>tell application "Foo"
     beep
 end tell
