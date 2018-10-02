@@ -90,5 +90,5 @@ In usually, we use the 80% of the data for training and hold out 20% for testing
 
 ## No Free Lunch Theorem  
 &emsp;A model is a simplified version of the observations. The simplifications are meant to discard the superfluous details that are unlikely to generalize to new instances. However, to decide what data to discard and what data to keep, you must make *assumptions*. In a famous 1996 paper, David Wolpert demonstrated that if you make absolutely no assumption about data, then there is no reason to prefer one model over any other. This is called the *No Free Lunch (NFL)* theorem.  
-* __Futher read__:  
-    * [The Lack of A Priori Distinctions Between Learning Algorithms](https://sci-hub.tw/https://www.mitpressjournals.org/doi/10.1162/neco.1996.8.7.1341)
+    * __Futher read__:  
+        * [The Lack of A Priori Distinctions Between Learning Algorithms](https://sci-hub.tw/https://www.mitpressjournals.org/doi/10.1162/neco.1996.8.7.1341)
