@@ -20,7 +20,7 @@
         * Neural networks (Note that some neural network architectures can be unsupervised or semisupervised.)  
 * Unsupervised Learning:
     * Clustering:  
-        - k-Means
+          &mdash; k-Means
 
 
 <pre><code>tell application "Foo"
