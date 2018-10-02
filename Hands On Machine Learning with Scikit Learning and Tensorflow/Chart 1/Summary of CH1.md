@@ -6,7 +6,7 @@
  
  ![Picture][/pic.jpg]{: class=callout }
  
- 
+ ![Picture][/pic.jpg]{: .callout }
  
 <pre><code>tell application "Foo"
     beep
