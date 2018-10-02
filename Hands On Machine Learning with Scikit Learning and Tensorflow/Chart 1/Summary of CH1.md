@@ -13,7 +13,7 @@
 * Supervised Learning:  
 &emsp; A typical supervised learning task are classification and regression.  
     * Algorithm:  
-** K-Nearest Neighbors
+        * K-Nearest Neighbors
 
 
 
