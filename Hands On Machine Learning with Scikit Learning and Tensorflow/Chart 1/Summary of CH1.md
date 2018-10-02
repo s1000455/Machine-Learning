@@ -73,5 +73,11 @@
     * To gather more training data.  
     * To reduce the noise in the training data.  
 
-&emsp;&emsp;&emsp;Constraining a model to make it simpler and reduce the risk of overfitting is called *regularization*.
+&emsp;&emsp;&emsp;Constraining a model to make it simpler and reduce the risk of overfitting is called *regularization*. The amount of regularization to apply during learning can be controlled by *hyperparameter*. Tuning hyperparameters is an important part of building a machine learning system.  
+
+* __Underfitting the Training Data__  
+&emsp;*Underfitting* is the opposite of overfitting: it occurs when your model is too simple to learn the underlying structure of the data.  The main options to fix this problem are:  
+    * Selecting a more powerful model, with more parameters.  
+    * Feeding better features to the learning algorithm.  
+    * Reducing the constraints on the model.  
                                            
