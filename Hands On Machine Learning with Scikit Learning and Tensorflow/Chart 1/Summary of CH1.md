@@ -7,9 +7,13 @@
 * Problems for which existing solutions require a lot of hand-tuning or long lists of rules: one Machine Learning algorithm can often simplify code and perform better.  
 * Complex problems for which there is no good solution at all using a traditional approach: the best Machine Learning  techniques can find a solution.  
 * Fluctuating environments: a Machine Learning system can adapt to new data.
-* Getting insights about complex problems and large amounts of data.
+* Getting insights about complex problems and large amounts of data.  
 
-
+## Types of Machine Learning Systems  
+* Supervised Learning:  
+&emsp; A typical supervised learning task are classification and regression.  
+    * Algorithm:  
+** K-Nearest Neighbors
 
 
 
