@@ -50,7 +50,7 @@
 ## Main challenges of Machine Learning  
 * Insufficient Quantity of Training Data  
 &emsp;For most machine learning algorithms, it takes a lot of data to work properly. Even for very simple problems you typically need thousands of examples, and for complex problems such as image or speech recognition you may need millions of examples.  
-    * Futher reading:  
+    * __Futher reading__:  
         * [Scaling to Very Very Large Corpora for Natural Language Disambiguation](http://www.aclweb.org/anthology/P01-1005)  
         * [The Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/zh-TW//pubs/archive/35179.pdf)  
         
