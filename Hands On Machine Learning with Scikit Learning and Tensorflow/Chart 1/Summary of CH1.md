@@ -72,6 +72,6 @@
     * To simplify the model by selecting one with fewer parameters, by reducing the number of attributes in the training data or by      constraining the model.  
     * To gather more training data.  
     * To reduce the noise in the training data.  
-      
+
 &emsp;&emsp;&emsp;Constraining a model to make it simpler and reduce the risk of overfitting is called *regularization*.
                                            
