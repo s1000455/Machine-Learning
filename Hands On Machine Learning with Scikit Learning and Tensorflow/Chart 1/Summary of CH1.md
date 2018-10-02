@@ -53,5 +53,15 @@
     * __Futher reading__:  
         * [Scaling to Very Very Large Corpora for Natural Language Disambiguation](http://www.aclweb.org/anthology/P01-1005)  
         * [The Unreasonable Effectiveness of Data](https://static.googleusercontent.com/media/research.google.com/zh-TW//pubs/archive/35179.pdf)  
+* Nonrepresentative Training Data  
+&emps;In order to generalize well, it is crucial that you training data be representative of the new cases you want to generalize to. By using a nonpresentative training set, we trained a model that unlikely to make accurate predictions. It is crucial to use a training set that is representative of the cases you want to generalize to. This is often harder than it sounds: if the sample is too small, you will have sampling noise, but even very large samples can be nonrepresentative if the sampling method is flawed. This is called sampling bias.  
+
+## Poor-Quality Data  
+&emsp;If your training data is full of errors, outliers, and noise, it will make it harder for the system to detect the underlying patterns, so your system is less likely to perform well. It is often well worth the effort to spend time cleaning up your tranining data.  
+
+## Irrelevant Features  
+&emsp; Your system will only be capable of learning if the training data contains enough relevant features and not too many irrelevant ones. A critical part of the success of a machine learning project is coming up with a good set of features to train on. This process, called *feature engineering*, involves:  
+* *Feature selection*:  
+selecting the most useful features to train on among existing features.  
         
                                            
