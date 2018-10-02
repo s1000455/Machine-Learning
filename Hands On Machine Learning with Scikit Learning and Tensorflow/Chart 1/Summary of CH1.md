@@ -24,7 +24,10 @@
         * Hierarchical Cluster Analysis (HCA)  
         * Expextation Maximization  
     * Visualization and dimensionality reduction  
-        *
+        * Principal Component Analysis (PCA)  
+        * Kernel PCA  
+        * Locally-Linear Embedding (LLE)  
+        * t-distributed Stochastic Neighbor Embedding (t-SNE)
 
 <pre><code>tell application "Foo"
     beep
