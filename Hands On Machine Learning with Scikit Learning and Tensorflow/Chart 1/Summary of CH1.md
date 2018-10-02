@@ -89,3 +89,5 @@ These data set help us to evaluate our model. The test set can give us the out-o
 In usually, we use the 80% of the data for training and hold out 20% for testing. To avoid wasting too much training data in validation sets, a common technique is to use *cross-validation*: the training set is split into complementary subsets, and each model is trained against a different combination of these subsets and validated against the remaining parts.  
 
 ## No Free Lunch Theorem  
+&emsp;A model is a simplified version of the observations. The simplifications are meant to discard the superfluous details that are unlikely to generalize to new instances. However, to decide what data to discard and what data to keep, you must make *assumptions*. In a famous 1996 paper, David Wolpert demonstrated that if you make absolutely no assumption about data, then there is no reason to prefer one model over any other. This is called the *No Free Lunch (NFL)* theorem.  
+* __Futher read__:  
