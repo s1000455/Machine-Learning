@@ -81,5 +81,11 @@
     * Feeding better features to the learning algorithm.  
     * Reducing the constraints on the model.  
                                            
-## __Testing and Validating__  
-&emsp;The only way to know how well a model will generalize to new cases is to actually try it out on new cases. Therefore we split data into three sets: the *training* set, *test* set and *validation* set. We train multiple models with various hyperparameters using the training set, select the model and hyperparameters that perform best on vaildation set and get an estimate of the generalization error by test 'set'.  
+## Testing and Validating  
+&emsp;The only way to know how well a model will generalize to new cases is to actually try it out on new cases. Therefore we split data into three sets: the *training* set, *test* set and *validation* set. We train multiple models with various hyperparameters using the training set, select the model and hyperparameters that perform best on validation set and get an estimate of the generalization error by test set.  
+* *why we need test set and validation set?*  
+These data set help us to evaluate our model. The test set can give us the out-of-sample error, this value tells us how well your model will perform on instances it has never seen before. By this reason, we can't test the model and select the hyperparameters on test set simltaneously. So the validation set comes in handy.  
+*  *How to split the training set, test set and validation set?*  
+In usually, we use the 80% of the data for training and hold out 20% for testing. To avoid wasting too much training data in validation sets, a common technique is to use *cross-validation*: the training set is split into complementary subsets, and each model is trained against a different combination of these subsets and validated against the remaining parts.  
+
+## No Free Lunch Theorem  
