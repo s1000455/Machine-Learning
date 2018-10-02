@@ -69,8 +69,8 @@
 
 * __Overfitting the Training Data__  
 &emsp;In machine learning this is called *overfitting*: it means that the model performs well on the training data, but it does not generalize well. Overfitting happens when the model is too complex relative to the amount and noisiness of the training data. The possible solutions are:  
-* To simplify the model by selecting one with fewer parameters, by reducing the number of attributes in the training data or by constraining the model.  
-* To gather more training data.  
-* To reduce the noise in the training data.  
+    * To simplify the model by selecting one with fewer parameters, by reducing the number of attributes in the training data or by      constraining the model.  
+    * To gather more training data.  
+    * To reduce the noise in the training data.  
 Constraining a model to make it simpler and reduce the risk of overfitting is called *regularization*.
                                            
