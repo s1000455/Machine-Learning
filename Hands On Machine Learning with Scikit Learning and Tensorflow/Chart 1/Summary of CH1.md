@@ -45,10 +45,12 @@
 * Instance-based learning  
 &emsp;This is called *instance-based learning*: the system learns the examples by heart, then generalizes to new cases using a similarity measure.  
 * Model-based learning  
-&emsp; Another way to generalize from a set of examples is to build a model of these examples, then use that model to make *predictions*. This is called *model-based learning*.
+&emsp; Another way to generalize from a set of examples is to build a model of these examples, then use that model to make *predictions*. This is called *model-based learning*.  
 
-
-<pre><code>tell application "Foo"
-    beep
-end tell
-</code></pre>                                               
+## Main challenges of Machine Learning  
+* Insufficient Quantity of Training Data  
+&emsp;For most machine learning algorithms, it takes a lot of data to work properly. Even for very simple problems you typically need thousands of examples, and for complex problems such as image or speech recognition you may need millions of examples.  
+    * Futher reading:  
+        * [Scaling to Very Very Large Corpora for Natural Language Disambiguation] : http://www.aclweb.org/anthology/P01-1005  
+        
+                                           
