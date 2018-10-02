@@ -38,7 +38,8 @@
 * Batch learning  
 &emsp;In *batch learning*, the system is incapable of learning incrementally: it must be trained using all the available data. This will generally take a lot of time and computing resources, so it is typically done offline.  
 * Online learning (Stochastic learning)  
-&emsp;In online learning, you train the system increnentally by feeding it data instances sequentially, either individually or by small groups called *mini-batched*. One important parameter of online learning systems is how fast they should adapt to changing data: this is called the *learning rate*. A big challenge with online learning is that if bad data is fed to the system, the system's performance will gradually decline. To reduce this risk, you need to monitor your system closely and promptly switch learning off (and possibly revert to a previously working state) if you detect a drop in performance. You may also want to monitor the input data and react to abnormal data.  
+&emsp;In online learning, you train the system increnentally by feeding it data instances sequentially, either individually or by small groups called *mini-batched*. One important parameter of online learning systems is how fast they should adapt to changing data: this is called the *learning rate*.  
+&emsp;A big challenge with online learning is that if bad data is fed to the system, the system's performance will gradually decline. To reduce this risk, you need to monitor your system closely and promptly switch learning off (and possibly revert to a previously working state) if you detect a drop in performance. You may also want to monitor the input data and react to abnormal data.  
 
 
 <pre><code>tell application "Foo"
