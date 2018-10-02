@@ -12,23 +12,29 @@
 ## Types of Machine Learning Systems  
 * Supervised Learning:  
 &emsp; A typical supervised learning task are classification and regression.  
-    * Some Algorithms:  
-        * K-Nearest Neighbors  
-        * Regression  
-        * Support Vector Machines (SVMs)  
-        * Decision Trees and Random Forests  
-        * Neural networks (Note that some neural network architectures can be unsupervised or semisupervised.)  
+    * K-Nearest Neighbors  
+    * Regression  
+    * Support Vector Machines (SVMs)  
+    * Decision Trees and Random Forests  
+    * Neural networks (Note that some neural network architectures can be unsupervised or semisupervised.)  
 * Unsupervised Learning:
     * Clustering  
-        * k-Means  
-        * Hierarchical Cluster Analysis (HCA)  
-        * Expextation Maximization  
+          * k-Means  
+          * Hierarchical Cluster Analysis (HCA)  
+          * Expextation Maximization  
     * Visualization and dimensionality reduction  
-        * Principal Component Analysis (PCA)  
-        * Kernel PCA  
-        * Locally-Linear Embedding (LLE)  
-        * t-distributed Stochastic Neighbor Embedding (t-SNE)
-
+          * Principal Component Analysis (PCA)  
+          * Kernel PCA  
+          * Locally-Linear Embedding (LLE)  
+          * t-distributed Stochastic Neighbor Embedding (t-SNE)  
+    * Association rule learning  
+          * Aprior  
+          * Eclat  
+* Semisupervised Learning
+    * Deep belief networks (DBNs)  
+* Reinforcement Learning  
+    * Deep Q netowrk (DQN)  
+    
 <pre><code>tell application "Foo"
     beep
 end tell
