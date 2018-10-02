@@ -17,8 +17,7 @@
         * Regression  
         * Support Vector Machines (SVMs)  
         * Decision Trees and Random Forests  
-        * Neural networks[^1]: Some neural network architectures can be unsupervised or semisupervised.    
-        [^1] Some neural network architectures can be unsupervised or semisupervised.
+        * Neural networks ( Note that some neural network architectures can be unsupervised or semisupervised.)  
 
 
 <pre><code>tell application "Foo"
