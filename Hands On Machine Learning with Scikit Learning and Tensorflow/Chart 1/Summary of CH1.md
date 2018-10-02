@@ -19,9 +19,7 @@
         * Decision Trees and Random Forests  
         * Neural networks (Note that some neural network architectures can be unsupervised or semisupervised.)  
 
-<div>
-__abc__
-</div>
+<div style="border:2px orange solid;">這是個有橘色邊框的 HTML div</div>
 <pre><code>tell application "Foo"
     beep
 end tell
