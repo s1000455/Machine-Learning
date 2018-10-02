@@ -41,6 +41,12 @@
 &emsp;In online learning, you train the system increnentally by feeding it data instances sequentially, either individually or by small groups called *mini-batched*. One important parameter of online learning systems is how fast they should adapt to changing data: this is called the *learning rate*.  
 &emsp;A big challenge with online learning is that if bad data is fed to the system, the system's performance will gradually decline. To reduce this risk, you need to monitor your system closely and promptly switch learning off (and possibly revert to a previously working state) if you detect a drop in performance. You may also want to monitor the input data and react to abnormal data.  
 
+## Instance-Based v.s. Model-Based Learning  
+* Instance-based learning  
+&emsp;This is called *instance-based learning*: the system learns the examples by heart, then generalizes to new cases using a similarity measure.  
+* Model-based learning  
+&emsp; Another way to generalize from a set of examples is to build a model of these examples, then use that model to make *predictions*. This is called *model-based learning*.
+
 
 <pre><code>tell application "Foo"
     beep
