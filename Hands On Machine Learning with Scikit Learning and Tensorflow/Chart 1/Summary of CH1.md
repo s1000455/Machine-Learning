@@ -18,8 +18,11 @@
         * Support Vector Machines (SVMs)  
         * Decision Trees and Random Forests  
         * Neural networks (Note that some neural network architectures can be unsupervised or semisupervised.)  
+* Unsupervised Learning:
+    * Clustering:
+        &mdash;k-Means
 
-<div style="border:2px orange solid;"><tr>這是個有橘色邊框的 HTML div</tr></div>
+
 <pre><code>tell application "Foo"
     beep
 end tell
