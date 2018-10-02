@@ -73,5 +73,5 @@
     * To gather more training data.  
     * To reduce the noise in the training data.  
   
-&emsp;Constraining a model to make it simpler and reduce the risk of overfitting is called *regularization*.
+&emsp;&emsp;&emsp;&emsp;Constraining a model to make it simpler and reduce the risk of overfitting is called *regularization*.
                                            
