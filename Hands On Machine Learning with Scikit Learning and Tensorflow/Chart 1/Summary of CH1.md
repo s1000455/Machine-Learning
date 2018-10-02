@@ -82,4 +82,4 @@
     * Reducing the constraints on the model.  
                                            
 ## __Testing and Validating__  
-&emsp;The only way to know how well a model will generalize to new cases is to actually try it out on new cases. Therefore we split data into three sets: the *training* set, *test* set and *validation* set. We train multiple models with various hyperparameters using the training set, select the model and hyperparameters that perform best on vaildation set and get an estimate of the generalization error by test set.  
+&emsp;The only way to know how well a model will generalize to new cases is to actually try it out on new cases. Therefore we split data into three sets: the *training* set, *test* set and *validation* set. We train multiple models with various hyperparameters using the training set, select the model and hyperparameters that perform best on vaildation set and get an estimate of the generalization error by test 'set'.  
