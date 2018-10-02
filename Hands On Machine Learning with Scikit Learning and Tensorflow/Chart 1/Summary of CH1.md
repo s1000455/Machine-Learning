@@ -51,6 +51,8 @@
 * Insufficient Quantity of Training Data  
 &emsp;For most machine learning algorithms, it takes a lot of data to work properly. Even for very simple problems you typically need thousands of examples, and for complex problems such as image or speech recognition you may need millions of examples.  
     * Futher reading:  
+        [foo]: http://example.com/  "Optional Title Here"
+        * foo
         * [Scaling to Very Very Large Corpora for Natural Language Disambiguation][http://www.aclweb.org/anthology/P01-1005]
         
                                            
