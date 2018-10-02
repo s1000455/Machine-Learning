@@ -19,7 +19,7 @@
         * Decision Trees and Random Forests  
         * Neural networks (Note that some neural network architectures can be unsupervised or semisupervised.)  
 * Unsupervised Learning:
-    * Clustering:
+    * Clustering:  
         &mdash;k-Means
 
 
