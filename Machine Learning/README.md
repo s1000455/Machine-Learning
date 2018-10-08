@@ -1,2 +1,2 @@
-Here are the summaries of 機器學習, 周志華
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+Here are the summaries of 機器學習, 周志華  
+Format: ![Alt Text](https://github.com/s1000455/Machine-Learning/blob/master/Machine%20Learning/%E5%B0%81%E9%9D%A2.jpg)
